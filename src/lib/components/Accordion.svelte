@@ -16,7 +16,7 @@
     </div>
     <div id="faq-answer{question.id}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-question{question.id}">
       <div class="panel-body">
-        {locale === "fr" ? question.answer_fr : question.answer_en}
+        {@html locale === "fr" ? question.answer_fr : question.answer_en}
       </div>
     </div>
   </div>
